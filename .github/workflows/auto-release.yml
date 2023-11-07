@@ -28,7 +28,7 @@ jobs:
       uses: ncipollo/release-action@v1
       if: steps.check.outputs.changed == 'true'
       with:
-        artifacts: "vscode-clangd-*.vsix"
+        artifacts: "vscode-uclangd-*.vsix"
         tag: ${{ steps.check.outputs.version }}
         commit: ${{ steps.check.outputs.commit }}
         token: ${{ secrets.GITHUB_TOKEN }}
