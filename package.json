@@ -18,7 +18,8 @@
     "keywords": [
         "C",
         "C++",
-        "uclangd"
+        "uclangd",
+        "uu"
     ],
     "activationEvents": [
         "onLanguage:c",
